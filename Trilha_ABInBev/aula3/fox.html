@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fox</title>
+
+    <h1 id="galeria">
+        Quantidade de fox 
+    </h1>
+    <button onclick="MudarFoto()">
+        fox
+    
+    </button> 
+    <br> <br>
+
+    <img src="" alt="" id="foto" width="200px" height= "200px">
+
+    <script>
+        let ff = []
+        function MudarFoto(){
+
+            let foto =document.querySelector("#foto")
+            let galeria = document.querySelector("#galeria")
+            
+             console.log(galeria)
+            fetch("https://randomfox.ca/floof/")
+            .then(function(resposta){
+             resposta.json()
+             .then(function(dados){
+                 foto.src = dados.image
+                 ff.push(dados.image)
+                 galeria.innerText = ff.length
+
+             })
+            
+            })  
+        }
+
+            
+    </script>
+
+          
+</head>
+<body>
+    
+</body>
+</html>

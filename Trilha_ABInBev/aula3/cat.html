@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatinhos</title>
+</head>
+<body>
+    
+    <button onclick="MudarImagem()">
+        Foto gato
+    </button> <br> <br>
+    <img src="" id="imagem" width="200px" height="200px">
+    
+    <script>
+
+         function MudarImagem(){
+             let imagem = document.querySelector("#imagem")
+
+             fetch("https://aws.random.cat/meow")
+             .then (function(resposta){
+                 resposta.json()
+                 .then(function(dados){
+                     imagem.src = dados.file
+
+
+                 })
+
+             })
+         }
+
+
+    </script>
+
+</body>
+</html>

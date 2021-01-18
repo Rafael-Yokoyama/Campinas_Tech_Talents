@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOGUITOS</title>
+</head>
+
+<body>
+    <h1 id="quantidade">Quantidade de Dogs ?</h1>
+
+    <button ondblclick="MudarImagem()">Foto Cachorro</button> <br />
+    <br />
+    <img src="" id="imagem" width="200px" height="200px" />
+
+    <script>
+        let galeria = [];
+
+        function MudarImagem() {
+            let quantidade = document.querySelector("#quantidade");
+            let imagem = document.querySelector("#imagem");
+
+            fetch("https://random.dog/woof.json").then(function (resposta) {
+                resposta.json().then(function (dados) {
+                    imagem.src = dados.url;
+                    galeria.push(dados.url);
+                    quantidade.innerText =("São:  " + galeria.length );
+
+                });
+            });
+        }
+    </script>
+</body>
+</html>
