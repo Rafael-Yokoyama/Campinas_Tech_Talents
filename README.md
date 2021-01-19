@@ -77,9 +77,8 @@
 ### *Aula 6*
    * Revisão
    * Projeto Twitter
-   
-   ![Clique aqui para ver o Projeto](https://github.com/Rafael-Yokoyama/Projetos-Trilha-Abinbev-React/tree/main/twitter-clone)
-                  
+   <a href="https://github.com/Rafael-Yokoyama/Projetos-Trilha-Abinbev-React/tree/main/twitter-clone"> Clique aqui para ver o Projeto </a> 
+
               
 
 ### *Aula 7*
