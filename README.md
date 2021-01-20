@@ -1,7 +1,7 @@
 # Campinas-Tech-Talents.
 ## Trilha-Abinbev-React 
 
-***Aqui estarão os conteúdoss abordados em aula*** 👀
+***Aqui estarão os conteúdos abordados em aula*** 👀
 
 
  ### *Aula 1*
@@ -16,7 +16,7 @@
 * Escopo
 * Tipos de dados, conversão e operadores
 
-               Prática para entrega
+  [  Prática para entrega aula 1](https://github.com/Rafael-Yokoyama/Campinas_Tech_Talents/tree/main/Trilha_ABInBev/aula1)
  
 
  ### *Aula 2*
@@ -83,9 +83,8 @@
 
 ### *Aula 7*
 
-
-   *  Explicação código twitter
-   *  Terminal
+   * Explicação código twitter
+   * Terminal
    * Node 
    * NPM
    * Package.json
@@ -95,9 +94,25 @@
 
 
 
-  
-               
-               
+                           
                   Prática para entrega
+                  
+                  
 ### *Aula 8*
+
+   * API (de novo?)
+   
+   * Postman
+   * Mais verbos HTTP (post, put, delete)
+   * REST x RESTFUL
+   * Requisição REST
+   * O que é o GIT
+   * Git config
+   * 3 estágios: Untracked, Stage, Commit
+   * Repositórios e Github 
+   * Clone, Push e Pull
+
+
+
+
 
