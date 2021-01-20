@@ -9,29 +9,26 @@
 
 <body>
     <p id="status"> </p>
-
     <button onclick="VerificarPessoa()" style="background:red;">
         Verificar
-    
 
     </button>
-
     <script>
         function VerificarPessoa() {
 
             let pessoa = {
                 nome: "Andressa",
                 idade: 18 ,
-                casada: false
+                casada: false,
             }
             let status = document.querySelector("#status")
 
             if(pessoa.casada === true) {
                 
-                status.innerText = "Casada"
+                status.innerText = "${pessoa.nome} é Casada"
                
             }else{
-                status.innerText = "Solteira" 
+                status.innerText = `${pessoa.nome} tem idade de ${pessoa.idade}  e é Solteira`
             }
 
         }
