@@ -30,7 +30,7 @@ div{
 font-size: 40px;
 }
 button{
-  
+
     text-transform: uppercase;
     font-weight: bold;
     border:none;
@@ -41,13 +41,17 @@ button{
 }
 
 button:hover{
-   
     cursor:pointer;
-    background:yellow;
-    
+    background:yellow; 
 
 }
 button:focus{
     outline-style: none;
   }
 
+@media (max-width: 1080px){
+    div{
+       border:none;
+    }
+
+}
