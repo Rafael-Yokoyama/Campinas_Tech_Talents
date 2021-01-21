@@ -16,7 +16,9 @@
 * Escopo
 * Tipos de dados, conversão e operadores
 
-  [  Prática para entrega aula 1](https://github.com/Rafael-Yokoyama/Campinas_Tech_Talents/tree/main/Trilha_ABInBev/aula1)
+<a href="https://github.com/Rafael-Yokoyama/Campinas_Tech_Talents/tree/main/Trilha_ABInBev/aula1" target="_blank">Prática aula  1</a>
+
+
  
 
  ### *Aula 2*
@@ -31,7 +33,7 @@
  * Objetos
  * Práticas
  
-             Prática para entrega
+  <a href="https://github.com/Rafael-Yokoyama/Campinas_Tech_Talents/tree/main/Trilha_ABInBev/aula2" target="_blank">Prática aula  2</a>
 
  
   ### *Aula 3*
