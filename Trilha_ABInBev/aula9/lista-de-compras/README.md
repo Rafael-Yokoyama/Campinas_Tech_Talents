@@ -1,6 +1,6 @@
 # Lista-de-compras
 
-first application in reacting
+First application in React
 
 
 ![](https://github.com/Rafael-Yokoyama/Campinas_Tech_Talents/blob/main/Trilha_ABInBev/aula9/lista-de-compras/src/print_tela.PNG)
