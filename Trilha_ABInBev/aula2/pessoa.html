@@ -22,30 +22,24 @@
 
             let pessoa = {
                 nome: "Andressa",
-                idade: 18 ,
+                idade: 18,
                 casada: true,
-                
             }
             let status = document.querySelector("#status")
 
-            if(pessoa.casada === true) {
-                
-                status.innerText =`${pessoa.nome} é Casada`
-               
-            }else{
+            if (pessoa.casada === true) {
+
+                status.innerText = `${pessoa.nome} é Casada`
+
+            } else {
                 status.innerText = `${pessoa.nome} tem  ${pessoa.idade} anos   e é Solteira`
             }
         }
 
-        function voltar(){
+        function voltar() {
             let status = document.querySelector("#status")
             status.innerText = ""
-
         }
-
-
-
-
     </script>
 </body>
 
