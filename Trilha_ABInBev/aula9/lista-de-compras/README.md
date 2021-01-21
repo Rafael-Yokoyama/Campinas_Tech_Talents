@@ -1,3 +1,13 @@
+# Lista-de-compras
+
+first application in reacting
+
+
+![](https://github.com/Rafael-Yokoyama/Campinas_Tech_Talents/blob/main/Trilha_ABInBev/aula9/lista-de-compras/src/print_tela.PNG)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
