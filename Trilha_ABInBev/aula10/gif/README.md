@@ -1,3 +1,8 @@
+# Show Gif
+
+![](https://github.com/Rafael-Yokoyama/Campinas_Tech_Talents/blob/main/Trilha_ABInBev/aula10/gif/src/img/gif_nazare.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
