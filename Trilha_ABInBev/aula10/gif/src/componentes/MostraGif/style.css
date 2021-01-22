@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 100px;
+}
+
+button:focus {
+  outline-style: none;
+}
+
+button {
+  width: 370px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid white;
+  background: none;
+
+  font-weight: bold;
+  color: white;
+}
+
+button:hover {
+  transition: 5s ease;
+  background: linear-gradient(to left, white, black);
+}
+.nazare-image {
+  box-shadow: inset 10em 2em white;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 20px;
+  animation: img-box 4s ease;
+}
+
+img {
+  animation: img 4s ease;
+
+  border-radius: 60px;
+}
+
+@keyframes img {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes img-box {
+  from {
+    position: relative;
+    top: 500px;
+  }
+  to {
+    position: relative;
+    top: 0px;
+  }
+}
