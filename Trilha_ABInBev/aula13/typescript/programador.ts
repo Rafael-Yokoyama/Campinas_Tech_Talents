@@ -1,13 +1,12 @@
-function programador(objeto: dev, array: string[]) {
-  // não precisa desenvolver nada aqui
+function programador(objeto: devs, array: string[]) {}
+
+interface devs {
+  nome: string,
+  idade: number,
+  empresa: string,
+  famoso: boolean
 }
-interface dev {
-  nome: string;
-  idade: number;
-  empresa: string;
-  famoso: boolean;
-}
-const dev = {
+const dev:devs = {
   nome: "Bill Gates",
   idade: 60,
   empresa: "Microsoft",
