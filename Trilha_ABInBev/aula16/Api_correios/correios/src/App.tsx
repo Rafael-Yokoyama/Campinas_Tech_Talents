@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 import { CepDados } from './types/dados';
+import './App.css';
 
 function App() {
   const [Cep, setCep] = useState<String>('')
