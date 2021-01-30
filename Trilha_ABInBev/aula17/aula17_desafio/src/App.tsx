@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import { Users, Posts } from './type/users';
+import { Users, Posts, } from './type/users';
 import axios from 'axios';
 
 function App() {
-  const [users, setUsers] = useState([]);
-  const [posts, setPosts] = useState<any>([]);
-  const [User, SelectedUser] = useState<Number>();
+  const [users, setUsers] = useState<Users[]>([]);
+  const [posts, setPosts] = useState<Posts []>([]);
+  const [User, SelectedUser] = useState<Number>(0);
 
 
   useEffect(() => {
@@ -15,8 +15,10 @@ function App() {
   }, []);
 
   useEffect(() => {
-    axios.get(`https://jsonplaceholder.typicode.com/users/${User}/posts`)
+    if (User !==0){
+      axios.get(`https://jsonplaceholder.typicode.com/users/${User}/posts`)
       .then(response => setPosts(response.data))
+    }
   }, [User]);
 
   return (
@@ -32,7 +34,9 @@ function App() {
 
       <h1>Lista de Posts</h1>
       
-      { posts.map((post: Posts) => (
+      { 
+      posts !==null &&
+      posts.map((post: Posts) => (
         <>
           <ul key={post.id}>
             <h4>{post.title}</h4>
