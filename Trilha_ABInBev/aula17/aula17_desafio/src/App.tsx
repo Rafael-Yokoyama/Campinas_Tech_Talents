@@ -22,9 +22,11 @@ function App() {
   return (
     <div className="App">
       <h1>Lista de Users</h1>
-      { users.map((user: Users) => (
+      { users !== null &&
+      users.map((user: Users) => (
         <ul key={user.id}>
-          <li><a onClick={() => SelectedUser(user.id)}>{user.name} ({user.id})</a></li>
+          <li><a onClick={() => SelectedUser(user.id)}>
+            {user.name} ({user.id})</a></li>
         </ul>
       ))}
 
