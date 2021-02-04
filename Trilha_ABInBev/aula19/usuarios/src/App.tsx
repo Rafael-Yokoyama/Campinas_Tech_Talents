@@ -27,15 +27,10 @@ function App() {
   return (
     <div className="App">
       <h2>Usuarios</h2>
-
       <input type="text" ref={inputNome} placeholder="Nome" />
-
       <input type="text" ref={inputIdade} placeholder="Idade" />
-
       <input type="text" ref={inputEmpresa} placeholder="Empresa" />
-
       <input type="text" ref={inputTelefone} placeholder="Celular" />
-
       <button onClick={postOnApi}>Enviar</button>
     </div>
   );
