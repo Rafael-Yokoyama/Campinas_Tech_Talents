@@ -1,7 +1,7 @@
 
 # Simple application using Redux 
 
-![]('https://github.com/Rafael-Yokoyama/Campinas_Tech_Talents/blob/main/Trilha_ABInBev/aula21/redux-1/src/img/gif.gif')
+![](https://github.com/Rafael-Yokoyama/Campinas_Tech_Talents/blob/main/Trilha_ABInBev/aula21/redux-1/src/img/gif.gif)
 
 
 
