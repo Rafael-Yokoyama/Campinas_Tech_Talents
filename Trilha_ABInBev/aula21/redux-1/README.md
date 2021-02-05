@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+
+# Simple application using Redux 
+
+![](https://github.com/Rafael-Yokoyama/Campinas_Tech_Talents/blob/main/Trilha_ABInBev/aula21/redux-1/src/img/gif.gif)
+
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
