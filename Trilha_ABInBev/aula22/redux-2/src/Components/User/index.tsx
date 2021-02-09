@@ -9,7 +9,6 @@ const User = () => {
   const username = useSelector((state: any) => state.users.username);
   const email = useSelector((state: any) => state.users.email);
 
-
   useEffect(() => {
     axios.get('https://jsonplaceholder.typicode.com/users/1')
       .then(response => dispatch({ type: 'GET_USER', payload: response.data }))

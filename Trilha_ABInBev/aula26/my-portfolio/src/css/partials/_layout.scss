@@ -1,0 +1,118 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-1 {
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 {
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 p {
+  padding-top: 20px;
+  color: $white;
+}
+
+.p-profile {
+  font-size: 50px;
+}
+
+/*contact*/
+.Social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.Social li {
+  margin-left: 15px;
+  list-style: none;
+}
+
+
+h1,
+h2 {
+  margin: 5px;
+}
+
+form {
+  font-weight: bold;
+  margin: 0 auto;
+  width: 470px;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+input,
+textarea,
+button {
+  border-radius: 8px;
+  font: 1em sans-serif;
+  width: 400px;
+  padding-top: 4px;
+  margin: 8px;
+  border: 1px solid #999;
+}
+
+textarea {
+  height: 160px;
+}
+
+input:focus,
+textarea:focus {
+  background: #ccc;
+}
+
+button {
+  font-weight: bold;
+  background: linear-gradient(267.72deg, $primary 0.88%, $white 90%);
+  text-transform: uppercase;
+}
+
+/*portifolio*/
+
+#projetos {
+    padding:70px;
+    text-align: center;
+   
+    article {
+    
+      display: flex;
+      div {
+        height: auto;
+        flex-basis: 300px;
+        background-color: #fafafa;
+        padding: 40px 40px 80px 40px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(202, 202, 202);
+        position: relative;
+        h3{
+          font-size: 1.2rem;
+        }}}}
+      
+        
+        
+      
+    
+    
