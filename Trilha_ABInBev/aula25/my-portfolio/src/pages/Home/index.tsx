@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Meu Site | Página Inicial</title>
+        <title>Meu Site | Home</title>
       </Helmet>
       <section className="container">
         <div className="container-item-1">
