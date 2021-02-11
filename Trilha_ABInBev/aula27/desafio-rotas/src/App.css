@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  background: #f5f5f5;
+  margin-bottom: 25px;
+}
+
+/*Home*/
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  background: white;
+  text-align: center;
+  margin: 8px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  width: 300px;
+  height: 250px;
+}
+
+.card .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-weight: bold;
+  background: linear-gradient(225deg, blue 0%, black 100%);
+  text-decoration: none;
+}
+
+/* Produto*/
+
+.container {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  background: white;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.info {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  text-align: justify;
+}
+.hastgad {
+  color: #cccc;
+  font-weight: bold;
+  font-style: italic;
+}
+.price {
+  font-weight: bold;
+  color: rgb(31, 26, 26);
+}
+.description_1 {
+  margin-top: 30px;
+  text-align: center;
+  flex-direction: column;
+  width: 60%;
+}
+
+img {
+  max-width: 200px;
+}
+
+
