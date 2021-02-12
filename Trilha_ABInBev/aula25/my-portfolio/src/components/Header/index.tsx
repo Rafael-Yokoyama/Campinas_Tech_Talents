@@ -12,7 +12,7 @@ const Header = ()=>{
           <Link to="/">Home</Link>
         </li>
         <li className="nav-link">
-          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
         </li>
         <li className="logo">
         <img src={Logo_1}  width="50px"/>
