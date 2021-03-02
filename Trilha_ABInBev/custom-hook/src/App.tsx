@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div style={{ padding: "60px", textAlign: "center" }}>
-      <p>Pressione as letras e veja um emogi</p>
+      <p>Pressione as letras e veja um emoji</p>
 
       <ul>
         <li>A</li>
