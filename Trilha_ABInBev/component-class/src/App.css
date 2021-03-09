@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+button{
+ color:white;
+  transition: .7s ease;
+  position: relative;
+  padding: 0.5rem 2rem;
+  margin-top:5%;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 700;
+  background: transparent;
+  position: relative;
+}
+
+button:focus{
+  outline-style: none;
+}
+
+button::after{
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -5px;
+  background: linear-gradient(267.72deg, blue 0.58%,rgb(12, 108, 153) 100%);
+  border-radius: 3px;
+  width: 0%;
+  height: 110%;
+  z-index: -1;
+
+  transition: .7s ease;
+}
+
+
+
+button:hover{
+  color:white;
+  transform: scale(1.05) skewX(-10deg);
+}
+
+
+  button:hover::after{
+ opacity: 1;
+      width: 120%;
+  
+  }
+
+  body{
+    background:black;
+   color:blue;
+  }
+
+
+@keyframes h1 {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0; }
+ 
+}
+
+h1 {
+  animation: h1 .9s linear infinite;
+  color:blue;
+}
